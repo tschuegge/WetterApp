@@ -1,0 +1,3 @@
+<h1>Wetter in Buchs</h1>
+<p *ngIf="wetter">{{wetter.current.condition.text}} bei {{wetter.current.temp_c}}</p>
+<p *ngIf="fehler">Es ist ein Fehler aufgetreten:<br>{{fehler}}</p>
