@@ -29,14 +29,14 @@
     <ion-card-content>
       <ion-row class="ion-align-items-center">
         <ion-col size="2">
-          <ion-img [src]="wetter?.current.condition.icon" style="width: 32px"></ion-img>
+          <ion-img [src]="wetter?.current.weather_icons[0]" style="width: 32px"></ion-img>
         </ion-col>
         <ion-col>
-          {{wetter.current.condition.text}}
+          {{wetter.current.weather_descriptions[0]}}
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col push="2">{{wetter.current.temp_c}}°C</ion-col>
+        <ion-col push="2">{{wetter.current.temperature}}°C</ion-col>
       </ion-row>
     </ion-card-content>
   </ion-card>

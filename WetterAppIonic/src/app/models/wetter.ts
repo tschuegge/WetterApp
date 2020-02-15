@@ -3,10 +3,8 @@ export interface Wetter {
     name: string
   };
   current: {
-    temp_c: number;
-    condition: {
-      text: string,
-      icon: string
-    }
+    temperature: number;
+    weather_descriptions: string[]
+    weather_icons: string[]
   };
 }
