@@ -1,10 +1,10 @@
 export interface Wetter {
-  location: {
-    name: string
+  name: string;
+  main: {
+    temp: number;
   };
-  current: {
-    temperature: number;
-    weather_descriptions: string[]
-    weather_icons: string[]
-  };
+  weather: [{
+    description: string;
+    icon: string;
+  }];
 }

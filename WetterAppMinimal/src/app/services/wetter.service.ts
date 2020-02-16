@@ -16,6 +16,6 @@ export class WetterService {
    * Lädt das Wetter für Buchs und gibt dieses ab Observable zurück
    */
   getWetter(): Observable<Wetter> {
-    return this.httpclient.get<Wetter>('http://api.weatherstack.com/current?access_key=7063f90987c7df61318bc66e974d74ea&query=Buchs');
+    return this.httpclient.get<Wetter>('https://api.openweathermap.org/data/2.5/weather?appid=3d37b0aa0b8e383968a3a8243d954202&lang=de&units=metric&q=Buchs');
   }
 }

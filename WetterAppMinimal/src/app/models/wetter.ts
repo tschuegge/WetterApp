@@ -1,6 +1,8 @@
 export interface Wetter {
-  current: {
-    temperature: number;
-    weather_descriptions: string[]
+  main: {
+    temp: number;
   };
+  weather: {
+    description: string;
+  }[];
 }
