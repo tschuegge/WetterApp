@@ -8,8 +8,8 @@ import { Wetter } from '../models/wetter';
 })
 export class WetterComponent implements OnInit {
 
-  wetter: Wetter;
-  fehler: string;
+  wetter: Wetter | null = null;
+  fehler = "";
 
   constructor(
     private wetterService: WetterService // WetterService injecten (verfügbar weil er dem Provider-Array im AppModule hinzugefügt wurde)
