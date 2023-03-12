@@ -9,4 +9,4 @@ Die Grundanforderung (im Verzeichnis _WetterAppMinimal_) kann nur mit Angular oh
 
 Optionale Aufgaben
 ------------------
-Zur Erfüllung der optionalen Anforderungen muss ein neues Projekt mit Ionic initialisiert werden (`ionic start WetterAppIonic blank --type=angular`).  [Software starten](https://tschuegge.github.io/WetterApp/WetterAppIonic/www/)
+Zur Erfüllung der optionalen Anforderungen muss [Ionic zum Projekt hinzugefügt](https://ionicframework.com/docs/intro/cdn#ionic--angular) werden (`ng add @ionic/angular`).  [Software starten](https://tschuegge.github.io/WetterApp/WetterAppIonic/dist/)
